@@ -1,9 +1,9 @@
 <template>
   <div class="app" :style="size">
-    <div class="rect" :class="drop?'drop':''">
-      <Decorate/>
+    <div class="rect" :class="drop ? 'drop' : ''">
+      <Decorate />
       <div class="screen">
-        <div class="panel">
+        <!--  <div class="panel">
           <Matrix :propMatrix="matrix" :cur="cur" :reset="reset" />
           <Logo :cur="!!cur" :reset="reset" />
           <div class="state">
@@ -20,11 +20,11 @@
               <Number :propTime="true" />
             </div>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
     <Keyboard :filling='filling' />
-    <Guide/>
+    <Guide />
   </div>
 </template>
 
@@ -34,4 +34,3 @@
 </style>
 
 <script src="./app.js"></script>
-

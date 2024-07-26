@@ -8,12 +8,12 @@ import r from './r'
 import p from './p'
 
 export default {
-  left,
-  down,
+  // left,
+  // down,
   rotate,
-  right,
-  space,
-  r,
-  p,
-  s
+  // right,
+  // space,
+  // r,
+  // p,
+  // s
 }

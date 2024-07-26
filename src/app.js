@@ -1,13 +1,13 @@
 import Decorate from './components/decorate/index.vue'
 import Guide from './components/guide/index.vue'
-import Next from './components/next/index.vue'
-import Music from './components/music/index.vue'
-import Pause from './components/pause/index.vue'
-import Number from './components/number/index.vue'
-import Point from './components/point/index.vue'
+// import Next from './components/next/index.vue'
+// import Music from './components/music/index.vue'
+// import Pause from './components/pause/index.vue'
+// import Number from './components/number/index.vue'
+// import Point from './components/point/index.vue'
 import Keyboard from './components/keyboard/index.vue'
-import Logo from './components/logo/index.vue'
-import Matrix from './components/matrix/index.vue'
+// import Logo from './components/logo/index.vue'
+// import Matrix from './components/matrix/index.vue'
 import { mapState } from 'vuex'
 import { transform, lastRecord, speeds, i18n, lan } from './unit/const'
 import { visibilityChangeEvent, isFocus } from './unit/'
@@ -28,14 +28,14 @@ export default {
   components: {
     Decorate,
     Guide,
-    Next,
-    Music,
-    Pause,
-    Number,
-    Point,
-    Logo,
+    // Next,
+    // Music,
+    // Pause,
+    // Number,
+    // Point,
+    // Logo,
     Keyboard,
-    Matrix
+    // Matrix
   },
   computed: {
     pContent() {
